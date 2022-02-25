@@ -23,6 +23,7 @@ public class LoginTestUsingPOM extends TestBase {
         login.submitForm();
         //Or use helper method
         //login.loginExpectSuccess("edgewords","edgewords123");
+        System.out.println("Finished loginpom1");
     }
 
     @Test
